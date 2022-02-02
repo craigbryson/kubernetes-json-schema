@@ -1,0 +1,142 @@
+{
+  "oneOf": [
+    {
+      "$ref": "io.k8s.api.core.v1.LoadBalancerIngress.json"
+    },
+    {
+      "$ref": "io.k8s.api.core.v1.LoadBalancerStatus.json"
+    },
+    {
+      "$ref": "io.k8s.api.core.v1.PortStatus.json"
+    },
+    {
+      "$ref": "io.k8s.api.core.v1.TypedLocalObjectReference.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.HTTPIngressPath.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.HTTPIngressRuleValue.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IPBlock.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.Ingress.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressBackend.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressClass.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressClassList.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressClassParametersReference.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressClassSpec.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressList.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressRule.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressServiceBackend.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressSpec.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressStatus.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.IngressTLS.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicy.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicyEgressRule.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicyIngressRule.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicyList.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicyPeer.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicyPort.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.NetworkPolicySpec.json"
+    },
+    {
+      "$ref": "io.k8s.api.networking.v1.ServiceBackendPort.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.APIResource.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.APIResourceList.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.DeleteOptions.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.FieldsV1.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelector.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.LabelSelectorRequirement.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.ListMeta.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.ManagedFieldsEntry.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.ObjectMeta.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.OwnerReference.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.Patch.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.Preconditions.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.Status.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.StatusCause.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.StatusDetails.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.Time.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.apis.meta.v1.WatchEvent.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.runtime.RawExtension.json"
+    },
+    {
+      "$ref": "io.k8s.apimachinery.pkg.util.intstr.IntOrString.json"
+    }
+  ]
+}
